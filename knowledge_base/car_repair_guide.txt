@@ -1,0 +1,326 @@
+SANTOS AUTO REPAIR — COMMON CAR PROBLEMS AND REPAIR GUIDE
+==========================================================
+This guide covers the most common problems reported by customers in Davao City.
+All price estimates are in Philippine Peso (PHP) and reflect labour only unless stated.
+
+---
+
+TOYOTA VIOS (2013-2023) — COMMON PROBLEMS
+------------------------------------------
+The Toyota Vios is the most popular sedan in Davao City and the Philippines. It is reliable but has known issues at higher mileage.
+
+1. Vibration at idle or rough idle
+Cause: Dirty throttle body or carbon buildup on intake valves. Very common in Davao due to stop-and-go traffic in Buhangin and Bajada areas.
+Fix: Throttle body cleaning (PHP 400-600), fuel injector cleaning (PHP 250-350 per injector)
+Severity: YELLOW — driveable but affects fuel economy
+
+2. CVT transmission shudder or hesitation (2018-2023 Vios)
+Cause: CVT fluid degradation. Toyota recommends CVT fluid change every 40,000 km but many owners skip this.
+Fix: CVT fluid flush (PHP 700 labour + PHP 800-1,200 fluid cost)
+Severity: YELLOW — get checked within 2 weeks to prevent costly transmission damage
+
+3. Brake squeal or grinding
+Cause: Worn brake pads. Front brake pads typically last 30,000-50,000 km in city driving in Davao.
+Fix: Brake pad replacement front pair (PHP 600-800 labour + PHP 800-1,500 pads)
+Severity: RED if grinding metal-on-metal — do not drive, visit shop immediately
+
+4. Power window not working
+Cause: Faulty window regulator or motor. Common on the driver's side of Vios units made between 2014-2017.
+Fix: Window regulator replacement (PHP 800-1,200 labour + parts)
+Severity: GREEN — cosmetic issue, safe to drive
+
+5. Aircon blowing warm air
+Cause: Low refrigerant (R134a), faulty compressor, or clogged condenser. Davao heat accelerates wear on aircon systems.
+Fix: Aircon regas PHP 600-900, compressor replacement PHP 2,000-3,000 labour
+Severity: GREEN in Davao climate technically but uncomfortable — service soon
+
+---
+
+TOYOTA INNOVA (2005-2023) — COMMON PROBLEMS
+---------------------------------------------
+The Innova is extremely popular with families and transport operators in Davao. The diesel 2.5L and 2.8L engines are workhorses but need proper maintenance.
+
+1. Hard starting when cold or black smoke from exhaust (diesel)
+Cause: Worn glow plugs or dirty fuel injectors. Common after 80,000 km.
+Fix: Glow plug replacement PHP 300-500 per plug labour, injector cleaning PHP 800-1,200 per injector
+Severity: YELLOW — worsens over time, book within 1 week
+
+2. Turbo lag or loss of power (diesel 2.5L/2.8L)
+Cause: Clogged EGR valve or boost pipe leak. Very common in Davao due to heavy loads and hilly routes like Calinan and Toril.
+Fix: EGR cleaning PHP 800-1,200, boost pipe inspection PHP 300-500
+Severity: YELLOW — affects performance significantly
+
+3. Front suspension clunking over bumps
+Cause: Worn stabiliser bar links or ball joints. The roads in some Davao barangays accelerate suspension wear.
+Fix: Sway bar link replacement PHP 400-600 per side, ball joint PHP 700-1,000 per side
+Severity: YELLOW — worsens handling, book within 2 weeks
+
+4. Excessive oil consumption (2TR-FE petrol engine)
+Cause: Worn piston rings or valve seals. Known issue on petrol Innova units above 100,000 km.
+Fix: Engine overhaul PHP 12,000-18,000 labour
+Severity: YELLOW to RED depending on rate of consumption
+
+5. Transmission slipping or delayed engagement (automatic)
+Cause: Low or degraded ATF. Many Innova owners in Davao run the same ATF for 60,000-80,000 km.
+Fix: ATF flush PHP 1,200 labour + fluid, transmission overhaul PHP 8,000-15,000 if damage has occurred
+Severity: RED if slipping badly — do not drive, visit shop
+
+---
+
+TOYOTA HILUX (2005-2023) — COMMON PROBLEMS
+--------------------------------------------
+The Hilux is the best-selling pickup in Davao and the Philippines. Used heavily in agriculture, construction, and as family vehicles.
+
+1. Leaf spring breakage or sagging (rear)
+Cause: Overloading. Very common in Davao where Hilux trucks carry heavy farm produce.
+Fix: Leaf spring replacement PHP 1,500-2,500 labour per side + parts
+Severity: YELLOW — affects handling and load capacity
+
+2. Diesel knock or injector noise
+Cause: Worn common rail injectors after 100,000 km. Can also be caused by bad quality diesel.
+Fix: Injector testing and cleaning PHP 800-1,200 per injector
+Severity: YELLOW — book within 1 week
+
+3. 4WD engagement problems
+Cause: Faulty 4WD actuator or vacuum lines. Common on older Hilux 4x4 units.
+Fix: 4WD system diagnosis PHP 500-800, actuator replacement varies
+Severity: YELLOW — important for off-road use in hilly Davao areas
+
+4. Vibration at highway speed
+Cause: Wheel imbalance or worn propeller shaft universal joints (UJs).
+Fix: Wheel balancing PHP 100-150 per wheel, UJ replacement PHP 600-900 labour
+Severity: YELLOW — uncomfortable and stresses drivetrain
+
+5. Rust on chassis and body (older units)
+Cause: Davao's humidity and coastal salt air accelerate rust, especially underneath.
+Fix: Rust treatment and undercoating PHP 2,500-5,000 depending on severity
+Severity: GREEN for surface rust, YELLOW to RED for structural rust
+
+---
+
+MITSUBISHI STRADA / L200 (2007-2023) — COMMON PROBLEMS
+---------------------------------------------------------
+Popular workhorse pickup in Davao. The 4D56 and 4N15 diesel engines are widely used.
+
+1. Timing belt tensioner failure (4D56 engine)
+Cause: The 4D56 timing belt tensioner is a known weak point. Failure can cause catastrophic engine damage.
+Fix: Timing belt and tensioner replacement PHP 1,500-2,000 labour — MUST be done every 80,000-100,000 km
+Severity: RED if belt breaks while driving — do not delay this service
+
+2. Transfer case noise or 4WD not engaging
+Cause: Low transfer case oil or worn synchronisers.
+Fix: Transfer case oil change PHP 500 labour, overhaul PHP 8,000-14,000
+Severity: YELLOW
+
+3. EGR problems and limp mode (4N15 engine, 2015+)
+Cause: Clogged EGR valve triggers ECU limp mode — engine limits power to protect itself.
+Fix: EGR cleaning PHP 800-1,200, ECU reset PHP 300-500
+Severity: YELLOW — vehicle is driveable in limp mode but very underpowered
+
+4. Suspension knocking (front)
+Cause: Worn front strut mounts or ball joints. Common on units used off-road in Davao del Sur farms.
+Fix: Strut mount replacement PHP 800-1,200 labour, ball joint PHP 700-1,000 per side
+Severity: YELLOW
+
+5. Turbocharger oil leak
+Cause: Worn turbo seals after high mileage. Presents as blue smoke on startup.
+Fix: Turbo rebuild PHP 5,000-9,000 labour or replacement
+Severity: YELLOW to RED — continued driving worsens damage
+
+---
+
+HONDA CIVIC (2006-2023) — COMMON PROBLEMS
+------------------------------------------
+Popular with young professionals and families in Davao City.
+
+1. Engine vibration at idle (1.8L R18A engine)
+Cause: Dirty throttle body or failing engine mounts. Common above 60,000 km.
+Fix: Throttle body cleaning PHP 400-600, engine mount replacement PHP 800-1,200 labour each
+Severity: YELLOW
+
+2. CVT jerking or shuddering (2016+ Civic)
+Cause: CVT fluid degradation or early CVT wear. Honda CVTs are sensitive to fluid condition.
+Fix: CVT fluid change PHP 700 labour + fluid
+Severity: YELLOW — book within 1 week
+
+3. AC not cold enough
+Cause: Refrigerant leak or clogged condenser. Davao humidity causes condenser fins to corrode.
+Fix: Aircon regas PHP 600-900, condenser cleaning PHP 400-600
+Severity: GREEN but uncomfortable in Davao heat
+
+4. Brake pedal pulsation
+Cause: Warped front brake discs. Common in Civic when brakes are applied hard repeatedly on Davao highways.
+Fix: Brake disc resurfacing PHP 400-600 per disc or replacement
+Severity: YELLOW — affects braking consistency
+
+5. Power steering noise when turning (older Civic with hydraulic PS)
+Cause: Low power steering fluid or failing power steering pump.
+Fix: Power steering fluid top-up PHP 200-400, pump replacement PHP 2,000-3,000 labour
+Severity: YELLOW
+
+---
+
+FORD RANGER (2012-2023) — COMMON PROBLEMS
+------------------------------------------
+Increasingly popular in Davao as a lifestyle and work pickup.
+
+1. Diesel particulate filter (DPF) clogging (2.2L and 3.2L TDCi)
+Cause: Lots of short-distance trips in Davao city traffic prevent DPF from completing passive regeneration.
+Fix: Forced DPF regeneration or professional cleaning PHP 3,500-5,000
+Severity: YELLOW — engine will go into limp mode if ignored
+
+2. EGR valve clogging
+Cause: Carbon buildup, more pronounced in city driving around Davao's CBD and Bankerohan market area.
+Fix: EGR cleaning PHP 800-1,200
+Severity: YELLOW
+
+3. Front wheel bearing noise (humming at speed)
+Cause: Worn front wheel bearings. Common above 80,000 km, especially on Ranger units used on unpaved roads in Davao del Norte.
+Fix: Wheel bearing replacement PHP 900-1,400 labour per side
+Severity: YELLOW to RED — bearing failure can cause wheel to seize
+
+4. Gearbox clunking (6-speed automatic)
+Cause: Low or degraded ATF. The Ford Ranger 6-speed needs ATF changes every 60,000 km.
+Fix: ATF change PHP 600 labour + fluid
+Severity: YELLOW
+
+5. Leaf spring squeaking or creaking
+Cause: Dry leaf spring bushings and pins. Very common in Davao due to frequent off-road use.
+Fix: Leaf spring lubrication and bushing replacement PHP 500-800
+Severity: GREEN — annoying but not dangerous
+
+---
+
+ISUZU MU-X AND D-MAX (2013-2023) — COMMON PROBLEMS
+-----------------------------------------------------
+Isuzu is one of the most trusted diesel brands in Davao and Mindanao generally.
+
+1. Hard cold start (4JJ1 and 4JK1 engines)
+Cause: Worn glow plugs or low compression after high mileage.
+Fix: Glow plug replacement PHP 300-500 per plug labour
+Severity: YELLOW
+
+2. Excessive diesel knock
+Cause: Fuel injector wear or poor quality diesel. Fuel quality varies across Davao provinces.
+Fix: Injector testing and cleaning PHP 800-1,200 per injector
+Severity: YELLOW
+
+3. Intercooler pipe blow-off (boost leak)
+Cause: Cracked or loose intercooler hose. Common on D-Max units used for heavy hauling.
+Fix: Intercooler hose inspection and replacement PHP 500-800 labour
+Severity: YELLOW — causes significant power loss
+
+4. Suspension noise from rear (D-Max pickup)
+Cause: Worn leaf spring u-bolts or shackle bushings.
+Fix: U-bolt tightening or replacement PHP 400-700, bushing replacement PHP 500-800
+Severity: YELLOW
+
+5. Automatic transmission hesitation (mu-X)
+Cause: Low or dirty ATF. The mu-X transmission benefits from ATF changes every 40,000 km.
+Fix: ATF flush PHP 1,200 labour + fluid
+Severity: YELLOW
+
+---
+
+HYUNDAI TUCSON AND SANTA FE — COMMON PROBLEMS
+-----------------------------------------------
+Hyundai has grown significantly in Davao market share.
+
+1. Engine knocking (Theta II 2.0L/2.4L engine)
+Cause: The Theta II engine has a known connecting rod bearing issue. Affects units that have had irregular oil changes.
+Fix: Engine inspection immediately if knocking is heard. Bearing replacement PHP 8,000-15,000 labour minimum.
+Severity: RED — stop driving immediately if knocking is present, engine failure risk is high
+
+2. Fuel pump failure
+Cause: Hyundai fuel pumps can fail prematurely. Symptoms: engine cranks but won't start or stalls at low fuel levels.
+Fix: Fuel pump replacement PHP 1,500-2,000 labour
+Severity: RED if vehicle won't start
+
+3. CV axle clicking when turning
+Cause: Worn outer CV joint boot and joint. Common above 80,000 km.
+Fix: CV joint replacement PHP 1,200-1,800 labour per side
+Severity: YELLOW
+
+4. Transmission jerking (6-speed DCT)
+Cause: The DCT (dual clutch transmission) on some Hyundai models requires a TCU update and fluid service.
+Fix: ATF service PHP 700-1,000 labour + fluid, TCU update at Hyundai dealer
+Severity: YELLOW
+
+---
+
+GENERAL SYMPTOMS AND WHAT THEY MEAN
+-------------------------------------
+
+BRAKE GRINDING
+If you hear metal grinding when braking, your brake pads are completely worn through and the metal backing plate is grinding on the disc. This is a RED situation — do not continue driving. Call Santos Auto Repair at 083-123-4567 for immediate assistance. Driving with metal-on-metal brakes can cause disc damage (PHP 2,000-4,000 per disc) and brake failure.
+
+OVERHEATING (temperature gauge rising or warning light on)
+Pull over immediately and turn off the engine. Do not open the radiator cap while hot. Causes: low coolant, faulty thermostat, radiator blockage, failed water pump, head gasket leak. Call us immediately. Continuing to drive an overheating engine can warp the cylinder head (PHP 8,000-15,000 repair). This is always a RED situation.
+
+CHECK ENGINE LIGHT
+Does not always mean something serious but should never be ignored. Can indicate anything from a loose fuel cap (GREEN) to a misfiring cylinder (YELLOW-RED) to a failing catalytic converter (YELLOW). Bring the vehicle in for a diagnostic scan (PHP 300-500) to read the fault code.
+
+OIL PRESSURE WARNING LIGHT (oil can icon)
+RED — stop driving immediately. This means oil pressure has dropped dangerously low. Causes: low oil level, oil pump failure, oil leak. Driving with low oil pressure will destroy the engine within minutes. Check oil level first. If oil level is normal, call for a tow.
+
+VIBRATION WHEN BRAKING
+Warped brake discs. The disc has uneven thickness from heat cycling. Pulsation felt through the brake pedal or steering wheel. YELLOW — book brake disc resurfacing (PHP 400-600 per disc) within 2 weeks.
+
+PULLING TO ONE SIDE WHILE DRIVING
+Possible causes: uneven tyre pressure (check this first, it is free), wheel alignment issue (PHP 500-700 for alignment), seized brake caliper (PHP 1,500-2,500 parts and labour), or worn suspension components. YELLOW — book alignment and inspection.
+
+WHITE SMOKE FROM EXHAUST
+On a cold morning, small amounts of white vapour are normal as condensation burns off. Persistent white smoke is a serious sign of coolant entering the combustion chamber — likely a blown head gasket. RED — do not continue driving. Head gasket repair: PHP 4,500-7,000 labour.
+
+BLUE SMOKE FROM EXHAUST
+Oil is being burned in the combustion chamber. Causes: worn piston rings, valve seals, or a failing turbocharger seal. YELLOW to RED depending on severity. Bring in for engine inspection (PHP 500-800 diagnostic).
+
+BLACK SMOKE FROM EXHAUST (diesel)
+Over-fuelling. Causes: dirty injectors, clogged air filter, faulty turbocharger, or EGR issues. YELLOW — reduces fuel economy significantly. Book injector cleaning and air filter replacement.
+
+STEERING WHEEL SHAKING AT HIGH SPEED
+Wheel imbalance (most common, PHP 100-150 per wheel to fix), worn tyres, or worn steering components. GREEN to YELLOW. Start with wheel balancing.
+
+CLICKING SOUND WHEN TURNING
+CV joint wear. The constant-velocity joint boot has likely cracked, lost grease, and the joint is wearing out. YELLOW — CV joint replacement PHP 1,200-1,800 per side. Left too long, the joint can fail completely, leaving you stranded.
+
+CAR WON'T START (engine cranks but no start)
+Common causes: dead battery (check voltage — should be above 12.4V), flooded engine, faulty fuel pump, bad crankshaft position sensor, timing belt failure. Call Santos Auto Repair at 083-123-4567 for roadside diagnosis.
+
+CAR WON'T START (no cranking, just clicking)
+Almost always a dead or weak battery. Can also be a faulty starter motor. Bring in for battery load test (FREE) and starter inspection.
+
+AIRCON NOT COLD IN DAVAO WEATHER
+Very common complaint in Davao's tropical climate. Causes in order of likelihood: low refrigerant (regas PHP 600-900), dirty condenser, faulty compressor, clogged expansion valve. In Davao, aircon systems should be serviced every 6-12 months due to the heat.
+
+---
+
+ROAD CONDITIONS IN DAVAO AND THEIR EFFECT ON VEHICLES
+------------------------------------------------------
+Davao City has a mix of good national highways and rough provincial roads. The following roads and areas are known to cause accelerated vehicle wear:
+
+Calinan and Baguio District roads: Unpaved sections cause suspension and shock absorber wear. Check shocks every 40,000 km if you drive here regularly.
+
+Talomo and Toril coastal area: Salt air from Manila Bay and Pakiputan Strait accelerates rust. We recommend annual undercoating for vehicles parked near the coast.
+
+NCCC Mall to Buhangin (Km. 7 to Km. 12): Heavy stop-and-go traffic accelerates brake wear, aircon compressor wear, and engine idle issues. CVT vehicles especially should have their fluid checked more frequently.
+
+Davao-Cotabato Highway (national road via Digos): High-speed highway driving is good for engines but can expose wheel bearing wear and tyre issues at speed.
+
+Mount Apo access roads (Kidapawan side): Steep grades stress brakes, clutches, and cooling systems. Ensure your vehicle is in good condition before mountain driving.
+
+---
+
+TIPS FOR VEHICLE OWNERS IN DAVAO
+---------------------------------
+1. Check tyre pressure weekly. Davao heat causes tyre pressure to fluctuate. Correct pressure improves fuel economy by up to 3% and extends tyre life.
+
+2. Do not let your fuel tank go below a quarter. In Davao's heat, fuel helps cool the fuel pump. Running on empty shortens pump life.
+
+3. Flush your coolant every 2 years or 40,000 km. Davao's heat is hard on cooling systems. Old coolant loses its anti-corrosion properties.
+
+4. Use your aircon on full blast when you first get in — do not set it to low to "save fuel." Getting the cabin temperature down quickly reduces the time the compressor runs hard.
+
+5. If you drive through floods in low-lying areas like Agdao, Bankerohan, or parts of Buhangin during heavy rains — check your air filter and do not rev the engine in deep water (risk of hydrolocking).
+
+6. Change your air filter every 15,000-20,000 km or more often if you drive on dusty farm roads in Davao del Norte or Compostela Valley.

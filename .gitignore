@@ -1,0 +1,14 @@
+# Never commit your API key
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Local ChromaDB (not used in this version but just in case)
+chroma_db/
+
+# Appointment data — contains customer info, do not commit
+data/appointments.json

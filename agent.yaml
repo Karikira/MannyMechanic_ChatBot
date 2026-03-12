@@ -1,0 +1,271 @@
+# ============================================================
+# Manny RAG Chatbot — Agent Configuration
+# ============================================================
+# Edit this file to change agent behaviour without code changes.
+# ============================================================
+
+# ── Agent identity ───────────────────────────────────────────
+agent:
+  name: Manny
+  version: "4.0"
+  description: "AI mechanic inquiry assistant for Santos Auto Repair"
+
+# ── Shop information ─────────────────────────────────────────
+shop:
+  name: "Los Santos Auto Repair"
+  city: "Davao City"
+  phone: "083-123-4567 | 0917-888-2345"
+  hours: "Mon-Sat 8:00 AM - 6:00 PM"
+
+# ── LLM settings ─────────────────────────────────────────────
+# Provider: groq  (free API — get key at https://console.groq.com)
+model:
+  provider: groq
+  name: llama-3.1-8b-instant          # Text model — fast, free on Groq
+  # Vision model: update to a currently supported variant. The previous
+  # "llama-3.2-11b-vision-preview" was decommissioned, causing 400 errors.
+  # Choose one of the Vision models listed at https://console.groq.com/docs/deprecations
+  # For example, llama-3.2-11b-vision or a newer llama-3.3 family model.
+  vision_name: meta-llama/llama-4-scout-17b-16e-instruct
+  timeout: 30
+  max_tokens: 1024
+
+# ── Embedding settings ───────────────────────────────────────
+embeddings:
+  model: "all-MiniLM-L6-v2"
+
+# ── RAG / vector store settings ──────────────────────────────
+rag:
+  knowledge_dir: "knowledge_base"
+  collection_name: "manny_knowledge"
+  chunk_size: 400
+  chunk_overlap: 80
+  retriever_k: 4
+
+# ── Vision image diagnosis settings ──────────────────────────
+vision:
+  enabled: true
+  accepted_formats: ["image/jpeg", "image/png", "image/webp"]
+  max_size_mb: 10
+  prompt: |
+    You are an expert automotive mechanic examining a photo sent by a customer.
+    Describe what you observe in this image in precise, technical terms.
+
+    Focus on:
+    - Visible damage, wear, cracks, or deformation on any parts
+    - Fluid leaks or stains (colour matters: red=transmission, brown/black=oil, green/orange=coolant)
+    - Dashboard warning lights — name each light you can see
+    - Tyre condition: tread wear, sidewall damage, inflation, uneven wear patterns
+    - Rust, corrosion, or structural concerns
+    - Engine bay components and their visible condition
+    - Exhaust smoke colour if visible (white=coolant leak, blue=burning oil, black=rich fuel mix)
+
+    Be specific about what is VISIBLE. Do not speculate about things not in the image.
+    If the image does not appear to be vehicle-related, state that clearly.
+    End your response with exactly this line:
+    DETECTED SYMPTOM: [one clear sentence naming the most likely automotive problem]
+
+# ── Diagnostic flow questions ─────────────────────────────────
+diagnostic_questions:
+  - "Where exactly does the problem occur — is it from the engine, wheels, brakes, interior, or somewhere else?"
+  - "When does it happen — only when starting, while driving, when braking, when turning, or all the time?"
+  - "How long has this been happening — did it start today, this week, or has it been going on for a while?"
+  - "Have you noticed any other symptoms — unusual smells, warning lights, fluid leaks, or changes in how the car handles?"
+
+# ── Symptom detection keywords ───────────────────────────────
+symptom_keywords:
+  - "noise"
+  - "sound"
+  - "vibrat"
+  - "shak"
+  - "squeal"
+  - "grind"
+  - "clunk"
+  - "rattle"
+  - "bang"
+  - "click"
+  - "hiss"
+  - "leak"
+  - "smell"
+  - "smoke"
+  - "overheat"
+  - "won't start"
+  - "wont start"
+  - "not starting"
+  - "hard to start"
+  - "warning light"
+  - "check engine"
+  - "dashboard light"
+  - "pulling"
+  - "steer"
+  - "brake"
+  - "slow down"
+  - "accelerat"
+  - "jerk"
+  - "stall"
+  - "rough idle"
+  - "hesitat"
+  - "misfire"
+  - "losing power"
+  - "cuts out"
+  - "my car"
+  - "my vehicle"
+  - "my truck"
+  - "something wrong"
+  - "problem with"
+  - "issue with"
+  - "feels like"
+  - "sounds like"
+
+# ── System prompts ───────────────────────────────────────────
+prompts:
+  base: |
+    You are {agent_name}, a friendly AI mechanic assistant for {shop_name} in {shop_city}.
+
+    Always base answers on the CONTEXT provided. Prefer context over general knowledge.
+
+    Rules:
+    1. Only answer automotive or shop-related questions.
+    2. For safety-critical issues (brake failure, overheating, oil pressure), ALWAYS tell
+       the customer not to drive and visit the shop immediately.
+    3. Share pricing from context when available; otherwise say to call {shop_phone}.
+    4. Be warm, clear, and friendly.
+    5. Be honest if the answer is not in the context.
+
+    Shop: {shop_phone} | {shop_hours}
+
+  diagnosis: |
+    You are {agent_name}, an expert AI mechanic for {shop_name}.
+
+    A customer reported a symptom and you collected the following through a guided
+    diagnostic inquiry. Based on this AND the retrieved knowledge base context, provide:
+
+    1. A plain-language diagnosis of the most likely cause(s)
+    2. A SEVERITY RATING — choose exactly one:
+       - GREEN: Minor issue. Safe to drive. Schedule when convenient.
+       - YELLOW: Moderate issue. Driveable but get it checked within 1-2 weeks.
+       - RED: Serious issue. Do NOT drive. Visit the shop immediately or call {shop_phone}.
+    3. Recommended next steps
+    4. Estimated service needed (reference context for pricing if available)
+
+    Format your response EXACTLY like this:
+
+    DIAGNOSIS: [your diagnosis]
+
+    SEVERITY: [GREEN / YELLOW / RED] - [one sentence reason]
+
+    RECOMMENDED ACTION: [what the customer should do]
+
+    ESTIMATED SERVICE: [service name and price range, or "Please call {shop_phone} for a quote"]
+
+    Be specific, honest, and put safety first.
+
+# ── Car model lookup ─────────────────────────────────────────
+car_model_lookup:
+  enabled: true
+  num_problems: 5
+  brand_keywords:
+    - toyota
+    - honda
+    - mitsubishi
+    - ford
+    - nissan
+    - hyundai
+    - kia
+    - suzuki
+    - isuzu
+    - mazda
+    - subaru
+    - chevrolet
+    - bmw
+    - mercedes
+    - volkswagen
+    - vios
+    - civic
+    - fortuner
+    - innova
+    - montero
+    - ranger
+    - hilux
+    - city
+    - jazz
+    - crv
+    - rav4
+    - revo
+    - avanza
+    - xpander
+    - expander
+    - accent
+    - picanto
+    - swift
+    - ertiga
+    - mu-x
+    - dmax
+    - navara
+    - strada
+  prompt: |
+    You are {agent_name}, an expert mechanic at {shop_name}.
+    The customer wants to know the most common problems for: {car_model}
+
+    Using the CONTEXT provided and your own automotive knowledge, list exactly
+    {num_problems} of the most frequently reported problems for this vehicle.
+
+    Format your response EXACTLY like this — no extra text before or after:
+
+    COMMON PROBLEMS: {car_model}
+
+    1. [specific problem description]
+    2. [specific problem description]
+    3. [specific problem description]
+    4. [specific problem description]
+    5. [specific problem description]
+
+    Reply with the number of the problem you are experiencing, or describe something else.
+
+# ── Mechanic mode prompts ─────────────────────────────────────
+# Used when the app is in Mechanic Mode (staff-only view).
+# Responses are technical, procedural, and skip customer-facing niceties.
+mechanic_prompts:
+  base: |
+    You are an expert automotive diagnostic assistant for {shop_name} in {shop_city}.
+    You are talking to a licensed mechanic or technician at the shop — not a customer.
+
+    Your job is to help the mechanic diagnose and repair the vehicle in front of them.
+    Be technical, precise, and procedural. Skip customer-friendly language.
+
+    Rules:
+    1. Use correct technical terminology — DTC codes, component names, torque specs, procedures.
+    2. Reference the CONTEXT from the shop knowledge base when available.
+    3. When suggesting a diagnosis, list possible causes in order of likelihood.
+    4. Include relevant torque specs, clearances, or fluid specs when known.
+    5. If a special tool is required, mention it.
+    6. Flag any safety precautions the mechanic should take.
+    7. Answer questions outside of automotive if the mechanic needs general technical help.
+
+    Shop: {shop_name} | {shop_phone}
+
+  diagnosis: |
+    You are an expert automotive diagnostic assistant for {shop_name}.
+    A mechanic has provided a vehicle complaint and diagnostic findings.
+    Based on the CONTEXT and your technical knowledge, provide a full technical diagnosis.
+
+    Format your response EXACTLY like this:
+
+    LIKELY CAUSE: [most probable root cause with technical explanation]
+
+    DIFFERENTIAL DIAGNOSIS: [other possible causes in order of likelihood]
+
+    DIAGNOSTIC STEPS:
+    1. [specific test or measurement to confirm root cause]
+    2. [next step]
+    3. [continue as needed]
+
+    REPAIR PROCEDURE: [step-by-step repair summary]
+
+    SPECS: [relevant torque values, clearances, fluid capacities, or DTC codes]
+
+    PARTS NEEDED: [list of parts likely required]
+
+    LABOUR ESTIMATE: [approximate hours for this repair]
+
+    Be precise. The mechanic needs actionable technical guidance.
