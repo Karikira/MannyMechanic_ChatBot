@@ -21,7 +21,7 @@ shop:
 # Provider: groq  (free API — get key at https://console.groq.com)
 model:
   provider: groq
-  name: llama-3.1-8b-instant          # Text model — fast, free on Groq
+  name: llama-3.3-70b-versatile          # Text model — fast, free on Groq
   # Vision model: update to a currently supported variant. The previous
   # "llama-3.2-11b-vision-preview" was decommissioned, causing 400 errors.
   # Choose one of the Vision models listed at https://console.groq.com/docs/deprecations
